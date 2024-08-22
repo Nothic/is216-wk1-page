@@ -1,0 +1,44 @@
+body {
+    background-color: aqua;
+    
+}
+
+.gallery {
+    background-color: palevioletred;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.video-container {
+    background-color: palevioletred;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+iframe{
+    width: 80%;
+    height: 80%;
+}
+
+
+.hero {
+    background-color: palevioletred;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.hero-text {
+    font-size: 2em;
+    font-weight: bold;
+    background: linear-gradient(45deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+    background-clip: text;
+    -webkit-background-clip: text; /* For Safari and Chrome */
+    color: transparent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Optional for a slight shadow effect */
+}
+
+#bouncingImage {
+    position: absolute;
+    width: 200px; /* Adjust the size of the image */
+    height: 200px; /* Adjust the size of the image */
+}
