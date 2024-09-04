@@ -1,0 +1,17 @@
+h1 {
+    color: blue;
+}
+
+div h1 {
+    background-color: yellow;
+}
+
+/*
+All instancecs of <h1> whose parent is <div> to have the following stling.
+Child Selector
+*/
+
+
+div > h1 {
+    font-style: italic;
+}
